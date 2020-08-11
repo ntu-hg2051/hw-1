@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e  # exit the script if any command fails
+
 # this creates a "virtual environment" folder called "env"
 python3 -m venv env
 
