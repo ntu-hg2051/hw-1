@@ -2,8 +2,8 @@
 
 This is the first homework assignment for HG2051 (AY 2020). Its
 purpose is to familiarize you with the process of submitting
-assignments and with the tools/services involved, including GitHub,
-GitHub Classroom, Python, and pytest.
+assignments and with the tools/services involved, including Git,
+GitHub, GitHub Classroom, Python, and pytest.
 
 ## Getting Started
 
@@ -29,8 +29,8 @@ checking if you've done the assignment correctly.
 
 Open the `hw1.py` file in your text editor and change the
 `count_tokens()` function to return the number of space-separated
-tokens. Here is one solution (feel free to just copy it for this
-assignment):
+tokens. Here is one solution&mdash;feel free to just copy it for this
+assignment:
 
 ```python
 def count_tokens(string):
@@ -41,7 +41,7 @@ def count_tokens(string):
 ```
 
 After saving the file, you can test to see if your solution is correct
-by running `pytest` (or `pytest -v` for more detailed output). This
+by running `pytest` or `pytest -v` for more detailed output. This
 command requires that the `pytest` module is installed, which can be
 done by configuring and activating the virtual environment as
 described above.
